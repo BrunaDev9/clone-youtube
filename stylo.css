@@ -1,0 +1,150 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#img-logo{
+  height: 65px;
+  width: 120px;
+  cursor: pointer;
+  
+}
+
+.nav-youtube{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+
+.icones-a-direita{
+  font-size: 25px;
+  cursor: pointer;
+
+  
+}
+  
+
+.texto-pesquisa{
+  
+  text-align: center;
+  align-items: center;
+  top: 1.5rem;
+  border-radius: 50px;
+}
+.texto-pesquisa input{
+  border-radius: 50px;
+  width: 40%;
+  height: 1.5rem;
+}
+.texto-pesquisa ion-icon{
+  cursor: pointer;;
+}
+
+.campo-texto-pesquisa {
+  flex-grow: 4;
+}
+.icones-a-direita img{
+  max-width:1.5rem;
+  max-height:1.5rem;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+}
+
+.botao-youtube{
+ 
+  padding: 8px;
+  justify-content: space-around;
+  gap: 30px;
+  border-radius: 9px;
+ 
+}
+.pai-botao-youtube{
+  margin-left: 30rem;
+  cursor: pointer;
+}
+.botao-youtube{
+  cursor: pointer;
+}
+
+.icone-tres-pontos ion-icon{
+  display: flex;
+  font-size: 32px;
+  max-width:1.5rem;
+  max-height:1.5rem;
+  cursor: pointer;
+
+}
+ .botao-primario{
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.barra-lateral{
+position: fixed;
+top: 60px;
+left: 0;
+min-width: 250px;
+width: 250px;
+height: calc(100vh - 60px);
+background: #fff;
+padding-right: 10px;
+}
+.links{
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.links img{
+  height: 20px;
+  margin-right: 20px;
+}
+
+.links:hover,
+.links.ativo{
+  background: rgba(0, 0, 0, 0.1);
+}
+.divisor{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+.imagem-capa {
+  width: 60px ;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+.corpo-videos{
+  width: calc(100% - 250px);
+  margin-top: 50px;
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+  grid-gap: 20px 5px;
+  
+}
+.cards-video{
+ 
+  width: 100%;
+  justify-content: space-between;
+
+
+}
+.abaixo-dos-cards{
+  display: grid;
+  grid-template-columns: 80px 250px;
+
+}
+
